@@ -8,7 +8,7 @@ Team Number: F1
 
 1. What is the purpose of an IP address?
 
-    Basically its like a mailing address wherein provides for us an address to access something.
+    Basically its like a mailing address wherein it provides for us an address to access something.
 
 2. What is a DNS? What are the benefits of using domain names instead of IP addresses?
 
@@ -36,7 +36,7 @@ Team Number: F1
 
 8. What is the difference between interface and implementation? Why is it important?
 
-   Interface defines how a function is called, while implementation is how the function executes .
+   Interface defines how a function is called, while implementation is how the function executes.
 
 9. Screenshot of your Blynk App:
 
