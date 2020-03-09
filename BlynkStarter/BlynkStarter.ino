@@ -50,9 +50,6 @@ char auth[] = "rYChLL8kFPazIRN1Lre-DJ1HcS3zFjqv";
 char ssid[32] = "SPARTAN-LAPTOP 3511";
 char pass[32] = "8x3L2%63";
 
-//char ssid[32] = "Kevin's iPhone";
-//char pass[32] = "12345678@";
-
 // You will need to define a timer object. BlynkTimer uses your MCU hardware to create a timer
 // that is compatible with all the Blynk events.
 BlynkTimer timer;
@@ -81,7 +78,7 @@ void myTimerEventTerm() // Every 10 ms
     }
     else {
         // Send serial data to Blynk terminal
-        char character;s
+        char character;
         while(Serial.available()) { // Check if serial is available every 10 ms
             character = Serial.read();
             content.concat(character);
